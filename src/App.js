@@ -5,12 +5,12 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-
+//bg="opacity-10"
 function BasicExample() {
   return (
-    <Navbar bg="light" expand="lg">
-      <Container>
-       <Navbar fixed="bottom" />
+    <Navbar bg="light" expand="lg">  
+      <Container id="navbar">
+       <Navbar fixed="bottom"/>
         <Navbar.Brand href="#home">TEST</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
