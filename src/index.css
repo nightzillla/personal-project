@@ -7,3 +7,8 @@
 h1 {
   font-family: "SpaceRanger";
 }
+navbar { font-family:SpaceRanger !important; }
+
+.navbar {
+  font-family: "SpaceRanger" !important;
+}
