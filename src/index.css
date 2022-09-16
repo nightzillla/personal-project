@@ -7,10 +7,13 @@
 h1 {
   font-family: "SpaceRanger";
 }
-navbar { font-family:SpaceRanger !important; }
+/* navbar { 
+  font-family:SpaceRanger ;
+ } */
 
 .navbar {
-  font-family: "SpaceRanger" !important;
+  font-family: "SpaceRanger";
+
 }
 
 body {
@@ -30,6 +33,7 @@ body {
   width: 100%;
 }
 
+
 /* .section h1 {
   position: absolute;
   text-align: center;
@@ -43,5 +47,8 @@ body {
 } */
 
 #navbar {
+  color: white;
+}
+.test {
   color: white;
 }
